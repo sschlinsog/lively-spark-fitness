@@ -1,0 +1,58 @@
+.page-body {
+  width: 70%;
+  height: 500px;
+  margin-right: 1em;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px solid yellow;
+  overflow: scroll;
+  margin-top: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#slider-nav {
+  height: 100px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
