@@ -10,70 +10,79 @@
 }
 
 a {
-	color: #ccc;
-	text-decoration: none;
+  color: #ccc;
+  text-decoration: none;
 }
 
 a:hover {
-	color: #fff;
+  color: #fff;
 }
 
 /* Common styles of menus */
 #dl-menu {
-  z-index: 1100;
+  z-index: 1000;
 }
 
 .dl-menuwrapper {
-	width: 100%;
-	max-width: 300px;
-	float: left;
-	position: relative;
-	-webkit-perspective: 1000px;
-	perspective: 1000px;
-	-webkit-perspective-origin: 50% 200%;
-	perspective-origin: 50% 200%;
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-perspective-origin: 50% 200%;
+  perspective-origin: 50% 200%;
+  border: 1px solid red;
 }
 
 .dl-menuwrapper:first-child {
-	margin-right: 100px;
+  margin-right: 100px;
 }
 
 .dl-menuwrapper button {
-	background: #ccc;
-	border: none;
-	width: 48px;
-	height: 45px;
-	text-indent: -900em;
-	overflow: hidden;
-	position: relative;
-	cursor: pointer;
-	outline: none;
+  background: red;
+  border: none;
+  width: 48px;
+  height: 45px;
+  text-indent: -900em;
+  overflow: hidden;
+  position: relative;
+  left: 77%;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 500px) {
+  .dl-menuwrapper {
+     float: right;
+  }
 }
 
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
-	background: #aaa;
+  background: #ff4500;
 }
 
 .dl-menuwrapper button:after {
-	content: '';
-	position: absolute;
-	width: 68%;
-	height: 5px;
-	background: #fff;
-	top: 10px;
-	left: 16%;
-	box-shadow: 
-		0 10px 0 #fff, 
-		0 20px 0 #fff;
+  content: '';
+  position: absolute;
+  width: 68%;
+  height: 5px;
+  background: #fff;
+  top: 10px;
+  left: 16%;
+  box-shadow: 
+  0 10px 0 #fff, 
+  0 20px 0 #fff;
+  clear: both;
 }
 
 .dl-menuwrapper ul {
-	padding: 0;
-	list-style: none;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
+  padding: 0;
+  list-style: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .dl-menuwrapper li {

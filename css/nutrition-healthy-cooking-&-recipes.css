@@ -1,0 +1,15 @@
+html,body {
+  height: 100%;
+}
+
+.cooking-videos iframe {
+  width: 100%;
+  height: 315px;
+}
+
+@media (min-width: 500px) {
+  .cooking-videos iframe {
+    width: 50%;
+    
+  }
+}

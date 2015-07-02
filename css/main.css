@@ -1,5 +1,4 @@
-/* General Demo Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Abel|Quando);
 
 @font-face {
   font-family: 'fontawesome';
@@ -14,72 +13,62 @@
 
 html, body {
   height: 100%;
-  overflow: hidden;
-}
-
-#container {
-  display: block;
-  width: 100%;
+  margin: 0;
   color: #fff;
-  font-size: 18px;
+  font-size: 1em;
+  font-family: 'Abel', sans-serif;
+  background: url(../images/background/main-backround.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-#container img.bg {
-  min-height: 100%;
-  min-width: 1024px;
-  
+.container {
+  height: 100%;
+  margin: 0;
+}
+
+.content {
+  background: #000;
+  margin: 1%;
+}
+
+.page-header .fitness-logo img {
   width: 100%;
-  height: auto;
-  
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1
+  padding-top: 15px;
 }
 
-#content-box {
-  width: 60%;
-  height: 700px;
-  margin: 0 auto;
-  position: relative;
-  top: 20%;
-  transform: translateY(20%);
-  background: #111;
+.page-header .fitness-logo p {
+  text-align: center;
+  margin-top: -10px;
+  font-size: 1em;
 }
 
-.top-main-nav {
-  position: relative;
-  font-size: 18px;
-  color: #000;
-  margin-top: 0;
-  z-index: 1;
-  display: none;
+.nav-bar {
+  height: 45px;
+  background: #fff;
+  padding: ;
 }
 
-.top-main-nav li {
-  list-style: none;
-  margin-top: 1em;
+#page-body {
+  padding: 15px
 }
 
-.top-main-nav li a {
-  padding: 6px;
-  color: #000;
-  background: yellow;
-  text-decoration: none;
-  border-radius: 5px;
+#page-body a {
+  color: #ffaa00;
 }
 
-.top-main-nav li a:visited {
-  text-decoration: none;
-  color: #000;
+#page-body a:visited {
+  color: #ffaa00;
 }
 
-.top-main-nav li a:hover {
-  text-decoration: none;
-  color: red;
+#page-body a:hover {
+  color: #ff4500;
 }
 
-.company-logo {
-  float: right;
-}
+
+
+
+
 
